@@ -19,7 +19,7 @@ class TPQueue {
         T get() const;
         bool isEmpty() const;
         bool isFull() const;
-    };
+};
 
 template<typename T>
 TPQueue<T>::TPQueue() : maxLength(100),
